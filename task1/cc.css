@@ -1,0 +1,217 @@
+html, body, div, span,  object, iframe, h1, h2, h3, 
+ p, blockquote, pre, a, abbr, acronym, address, 
+ big, cite, code, del, dfn, em, img, ins, kbd, q,  samp, 
+ small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+ fieldset, form, label, legend, table, caption, tbody, tfoot, 
+ thead, tr, th, td { 
+     margin: 0; 
+     padding: 0; 
+     border: 0; 
+     outline: 0; 
+     font-weight: inherit; 
+     font-style: inherit; 
+     font-size: 100%; 
+     font-family: inherit; 
+     vertical-align: baseline; 
+ } 
+ 
+ #header{
+ 
+ 	background-color:#B3C3D2;
+ 	height: 70px;
+ }
+ 
+ #header.header-logo{
+ 	float: left;
+ 	padding-left: 200px;
+ 	padding-top: 200px;
+ 	margin-left: 200px;
+ 	border-left: 200px;
+ }
+ #header .header-nav{
+ 	float: right;
+ 	height: 50px;
+ 	margin-top: -40px;
+ }
+ #header .header-logo img{
+ 	height: 70px;
+ 
+ }
+ #header .header-nav li{
+ 	display: inline-block;
+ }
+ #header .header-nav a:link,#header .header-nav a:active{
+ 	text-decoration: none;
+ 	color: white;
+ }
+ #header .header-nav a:visited{
+ 	text-decoration: none;
+ 	color: white;
+ }
+ #header .header-nav a:hover{
+ 	text-decoration: none;
+ 	color: #F1B4C3;
+ }
+ #header .header-nav a.active{
+ 	text-decoration: none;
+ 	color: gray;
+}
+#article-body{
+	background-color: #DCDCDC;
+	margin:0 auto;
+	padding: 20px;
+}
+#article-body .article{
+    background-color: white;
+ 	margin-bottom: 20px;
+ 	padding: 20px;
+ 	box-shadow:3px 3px 3px #333;
+ }
+ div .article h2{
+ 	text-align: left;
+ 	font-family: "Microsoft Yahei";
+ 	line-height: 40px;
+ 	font-size: 24px;
+ 	font-weight:600;
+ }
+ div .article h3{
+ 	text-align: left;
+ 	font-family:"Microsoft Yahei";
+ 	line-height: 40px;
+ 	font-size: 18px;
+ 	font-weight: 600;
+ 	color: #858585;
+ }
+ div.article p.article-info{
+ 	text-align: left;
+ 	font-family:"Microsoft Yahei";
+ 	line-height: 30px;
+ 	color: #A9A9A9;
+ 	font-size: 15px;
+ 	font-weight: 400;
+ 	text-indent: 0; 
+ }
+ div.article p{
+ 	text-align: left;
+ 	font-family:"Microsoft Yahei";
+ 	line-height: 30px;
+ 	font-weight: normal;
+ 	text-indent: 30px; 
+ }
+ div.article ul li{
+ 	list-style-type: none;
+ 	text-align: left;
+ 	font-family: "Microsoft Yahei";
+ 	line-height: 30px;
+ 	font-weight: 600;
+ 	text-indent: 10px;
+ }
+ div.article div.picture{
+ 	border: solid 1px #DCDCDC;
+ 	margin: 20px;
+ 	width: 240px;
+ }
+ div.article div.picture p{
+ 	text-align: center;
+ }
+ div.article div.picture img{
+ 	width: 200px;
+ 	height: 130px;
+ 	margin: 20px;
+ }
+ div.article ol{
+ 	margin-left: 50px;
+ }
+ div.article ol li{
+ 	text-align: left;
+ 	font-family: "Microsoft Yahei";
+ 	line-height: 30px;
+ 	font-size: 15px;
+ 	font-weight: 600;
+    text-indent: 10px;
+ }
+ div.article table{
+ 	border: 1px;
+ 	width: 100%;
+ 	border-spacing: 0;
+ }
+div.article tr th{
+	background-color: black;
+	border: 1px solid #DCDCDC;
+	color: white;
+}
+div.article tr td{
+	border: 1px solid #DCDCDC;
+}
+div.article tr.tablesum{
+	background-color: #DCDCDC;
+	border: 1px solid #CCCCCC;
+}
+div#sidebar{
+	padding: 20px;
+	background-color: #FFFFFF;
+}
+div#sidebar div.sidebar-content{
+	background-color: white;
+	padding: 20px;
+}
+div#sidebar h2{
+	margin-left: 10px;
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: 40px;
+	font-size: 18px;
+	font-weight: 600;
+    border-left: 3px solid #DCDCDC;
+}
+div#sidebar div.inp{
+	display: block;
+	margin: 20px;
+	text-align: center;
+}
+div#sidebar div.inp p{
+	float: left;
+	width: 30%;
+	text-align: center;
+	padding-right: 10px;
+}
+div#sidebar div.inp input[type="submit"]{
+	width: 100%;
+	background: #3355D0;
+	border: none;
+	padding: 10px 25px 10px 25px;
+	color: #FFF;
+	box-shadow: 1px 1px 5px #B6B6B6;
+	border-radius: 3px;
+	text-shadow: 1px 1px 1px #9E3F3F;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+div#sidebar div.tip{
+	height: 25px;
+	text-align: center;
+	float: center;
+}
+div#sidebar div.tip div.tip-right{
+	width: 100%;
+	text-align: center;
+}
+div#sidebar div.tip p{
+	text-align: left;
+	font-family: "Microsoft Yahei";
+	line-height: 30px;
+	color: #A9A9A9;
+	font-size: 15px;
+	font-weight: 400;
+	text-indent: 0;
+	text-align: center;
+}
+div#footer div.copy{
+
+}
+div#footer p{
+	color: white;
+	text-align: center;
+	line-height: 30px;
+}
